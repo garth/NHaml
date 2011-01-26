@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NHaml.Compilers.Boo</RootNamespace>
     <AssemblyName>NHaml.Compilers.Boo</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NHaml.snk</AssemblyOriginatorKeyFile>
@@ -43,7 +43,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <CodeAnalysisRules>-Microsoft.Design#CA1020;-Microsoft.Security#CA2116</CodeAnalysisRules>
     <DocumentationFile>
     </DocumentationFile>
@@ -81,6 +81,7 @@
       <HintPath>..\..\lib\Boo\Boo.Lang.Parser.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Web.Routing" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\SharedAssemblyInfo.cs">

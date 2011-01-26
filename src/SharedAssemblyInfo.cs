@@ -14,8 +14,10 @@ using System.Security.Permissions;
 [assembly: AssemblyFileVersion("1.6.0.0")]
 [assembly: NeutralResourcesLanguage("")]
 [assembly: AllowPartiallyTrustedCallers]
+[assembly: SecurityRules(SecurityRuleSet.Level1)]
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true)]
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
+//[assembly: SecurityCritical]
 #if !NOT_CLSCOMPLIANT
 [assembly: CLSCompliant(true)]
 #endif
